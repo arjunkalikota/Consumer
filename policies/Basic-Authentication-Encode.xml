@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BasicAuthentication async="false" continueOnError="false" enabled="true" name="Basic-Authentication-Encode">
+    <DisplayName>Basic Authentication-Encode</DisplayName>
+    <Operation>Encode</Operation>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <User ref="private.username"/>
+    <Password ref="private.password"/>
+    <!--User>VmVldmFfT3JkZXJAcHJvY3RlcmdhbWJsZS0wQUM0SlE=</User>
+    <Password>YmIyZTYwYWMtYjZkMC00NGI5LWJkMzctODZjYzIyNDAyNDZh</Password>-->
+    <AssignTo createNew="true">request.header.Authorization</AssignTo>
+</BasicAuthentication>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM_Data" mapIdentifier="KVM_ConfigDataValues">
+    <DisplayName>KVM_Data</DisplayName>
+    <Get assignTo="spikeArrestkvm">
+        <Key>
+            <Parameter>spikeArrest</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="allowedQuotakvm">
+        <Key>
+            <Parameter>allowedQuota</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="requestSizekvm">
+        <Key>
+            <Parameter>requestSize</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="timeunitQuotakvm">
+        <Key>
+            <Parameter>timeunitQuota</Parameter>
+        </Key>
+    </Get>
+    <Scope>apiproxy</Scope>
+</KeyValueMapOperations>

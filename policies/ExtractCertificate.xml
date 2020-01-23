@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractCertificate">
+    <DisplayName>ExtractCertificate</DisplayName>
+    <Source>request</Source>
+    <JSONPayload>
+        <Variable name="valid_cn">
+            <JSONPath>$.parts.entry[?(@.characteristicName == 'valid_cn')].value[0]</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

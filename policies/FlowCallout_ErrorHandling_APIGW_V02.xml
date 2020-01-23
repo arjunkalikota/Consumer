@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="FlowCallout_ErrorHandling_APIGW_V02">
+    <DisplayName>FlowCallout_ErrorHandling_APIGW_V02</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>SF_Common_ErrorHandling_APIGW_V02</SharedFlowBundle>
+</FlowCallout>

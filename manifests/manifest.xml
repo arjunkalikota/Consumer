@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Basic-Authentication-Encode" version="SHA-512:b4338798ea01036e675013fbf8ab36eed2fb22c0a27d908b8a342078463e8ed8d9e7fe7b2f74c4195ac8a5f5772506ed719e18fa6d3ab0e73e23496a336bbf72"/>
+        <VersionInfo resourceName="Common-CertificateValidation" version="SHA-512:630cc4e4a6942da6a986dce212a4ce1e572c88d3da95b992cf1bfadf0abd8b20e93a5fa28f10ac010646e186b5384220c68005953db6bde7ece913f8c89665fb"/>
+        <VersionInfo resourceName="ExtractCertificate" version="SHA-512:bf09fe2ce9cf14374a202f69a47d883a20741f9bf27f530c89ef9e6c960b9480f3cf14afcc5175b4476c456a5480acfb7603dc3b604ce2570ca3f3ec20606ba8"/>
+        <VersionInfo resourceName="FlowCallout_ErrorHandling_APIGW_V02" version="SHA-512:98b4e34eeb7dc5749ba3af0c9dd45cc3eebfff505b676b75b4c8924ed5a499ace34d7d845dc3ef035f07839e2ce3103b19dd25ff412553326863d8a1bfabfbc3"/>
+        <VersionInfo resourceName="FlowCallout_ErrorHandling_Backend" version="SHA-512:9b5a00c9df8a0cf114467b7124579753656643e356dfa19515bc491b2662d9f6129354371e6bf562a13f881775fe76dd372424ffe7d20affcfa2e8ace1c5aaa3"/>
+        <VersionInfo resourceName="JavaScript-RequestSizeValidation" version="SHA-512:f53e679ed82c5b3fc7da859b1830fd4a617c86cccbe57bddd6182a8b0e12ebe853846817232cb12569bbeb48ffd26d89cd33e742e681a525001781e2013bdd4d"/>
+        <VersionInfo resourceName="KVM_CertificateValues" version="SHA-512:919bcc485a4246b1864c3041600bd00af7cb1a1452dc3e098e28c20cf7b2850ec698ef849ec14207b801aebbf0f8e2e84a6f07f5c7ce52a34005b2d52af95948"/>
+        <VersionInfo resourceName="KVM_Data" version="SHA-512:76c5fe8b06fbe4d5c342d85bf20edff2333a4999a2c609ad8013a4489c0231acd19b459df06084e6c41d3dcd044dcd24862298601fa239374f3a419ff0b04236"/>
+        <VersionInfo resourceName="KVM_OrderCreate_Sales" version="SHA-512:acf4ce18e84051dcb5dd8039d319c4b71ad586253a4c11cbd69a83aca3c3aeec1d9f590e86100778d7f5eec05e7ff808669ef26132c0b0310b1f6e1fefd2ee70"/>
+        <VersionInfo resourceName="OAuth" version="SHA-512:3d611272e5d268d46a397fcb7c90ab12cbfc9e678277fbe3dd45a4c3dde49fbf9ab67735201f03cffaa351c2728567cbf630c75bebd38ee023816d7b204736da"/>
+        <VersionInfo resourceName="Quota-Request" version="SHA-512:0ec0afadec2eb412dfb6618e41d7a24071b8a020aabd3e36ce7ff72d4f4a9e6976ae11545f2611cbf634f73576d7ce86768a3d32b8791a167dadfc9419b8daf0"/>
+        <VersionInfo resourceName="Spike-Arrest-TransactionRate" version="SHA-512:cbec32ef48a16bf7b471720beb35b77dcfd0c3967a97aa9e917ada88ff8316e618f15b7a4df671760cec656337d11cf53df64216fcb99a5ca486d053cf71cb4a"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f81c9c38f4266365ec787464ac9837fcc547276b077f05df53777f890e00bd623ee8db50815f15e761d3e8152a53ec29dd453eb80537cafa9ba5e1a9c5b69710"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-Request-Size-Validation.js" version="SHA-512:c86732651668c033ab5951473ab06d738d0ef0484e509c5e9bd44b5f0562825b29569e2dbc093f53697ce57b111ef25387c4cd1caa27d866dfd24233c3a169f5"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c175186347612420b3f89a985d718365857a20b2ddf2c865f1210a35b1ea9e85873681b58763341471fb63c5ed43f92b35cb859c6df66daa009a806c21f387ae"/>
+    </TargetEndpoints>
+</Manifest>

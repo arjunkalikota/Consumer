@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="KVM_CertificateValues" enabled="true" continueOnError="false" async="false" mapIdentifier="ValidCertificates_KVM">
+    <DisplayName>KVM_CertificateValues</DisplayName>
+    <Properties/>
+    <Get assignTo="valid_cn">
+        <Key>
+            <Parameter>valid_cn</Parameter>
+        </Key>
+    </Get>
+    <Scope>apiproxy</Scope>
+</KeyValueMapOperations>

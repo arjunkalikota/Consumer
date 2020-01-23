@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Sales_CustomerRelationshipManagement_OrderManagement_V1">
+    <Basepaths>/sales_customerrelationshipmanagement_ordercreate_v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1571231173312</CreatedAt>
+    <CreatedBy>sujata.mazumdar@infosys.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Sales_CustomerRelationshipManagement_ORDERCreate_V1</DisplayName>
+    <LastModifiedAt>1579262010712</LastModifiedAt>
+    <LastModifiedBy>ankit.dobriyal@infosys.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:2b4b82f3df25a2b7c8e5a380f3318f3ff75d817537bb0772552e20909fc5371b99ffe29e633646db48cee124791ec8773fa0a0bd6f0f581ae01edb050262f129</ManifestVersion>
+    <Policies>
+        <Policy>Basic-Authentication-Encode</Policy>
+        <Policy>Common-CertificateValidation</Policy>
+        <Policy>ExtractCertificate</Policy>
+        <Policy>FlowCallout_ErrorHandling_APIGW_V02</Policy>
+        <Policy>FlowCallout_ErrorHandling_Backend</Policy>
+        <Policy>JavaScript-RequestSizeValidation</Policy>
+        <Policy>KVM_CertificateValues</Policy>
+        <Policy>KVM_Data</Policy>
+        <Policy>KVM_OrderCreate_Sales</Policy>
+        <Policy>OAuth</Policy>
+        <Policy>Quota-Request</Policy>
+        <Policy>Spike-Arrest-TransactionRate</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-Request-Size-Validation.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

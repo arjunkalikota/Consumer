@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout name="Common-CertificateValidation" enabled="true" continueOnError="false" async="false">
+    <DisplayName>Common-CertificateValidation</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>SF_Common_CertificateValidation</SharedFlowBundle>
+</FlowCallout>

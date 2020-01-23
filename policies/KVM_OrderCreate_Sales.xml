@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM_OrderCreate_Sales" mapIdentifier="KVM_Sales_OrderCreate">
+    <DisplayName>KVM_OrderCreate_Sales</DisplayName>
+    <Properties/>
+    <Get assignTo="private.username">
+        <Key>
+            <Parameter>username</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.password">
+        <Key>
+            <Parameter>password</Parameter>
+        </Key>
+    </Get>
+    <Scope>apiproxy</Scope>
+</KeyValueMapOperations>
